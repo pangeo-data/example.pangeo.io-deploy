@@ -42,6 +42,11 @@ that are used for your deployment.
   * Click add project under your github account name. 
   * Click Set Up Project for the example.pangeo.io-deploy repo. Click Linux. Click Start building at bottom. 
   * You will need to add the below environmental variables to your CircleCI configuration:
+* Create a Google service account
+  * (For the pangeo project, reuse pangeo-automated-deploy service account)
+  * Required IAM roles:
+    * Kubernetes Engine Admin
+    * Storage Admin
 
 | Name | Description |
 | ---- | ----------- |
